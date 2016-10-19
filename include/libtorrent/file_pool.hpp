@@ -119,7 +119,6 @@ namespace libtorrent
 #endif
 
 	private:
-
 		void remove_oldest(std::unique_lock<std::mutex>& l);
 
 		int m_size;
